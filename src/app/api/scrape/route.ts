@@ -3,7 +3,7 @@ import { prisma } from '@/lib/prisma'
 
 const APIFY_TOKEN = process.env.APIFY_TOKEN
 // Ganti dengan Task ID peribadi awak (contoh: "kronologiseram-eng/facebook-groups-scraper")
-const TASK_ID = 'kronologiseram-eng/facebook-groups-scraper' 
+const TASK_ID = 'arynation1/facebook-groups-scraper-task'
 
 export async function GET() {
   try {
